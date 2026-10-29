@@ -1,0 +1,14 @@
+{
+  "appId": "com.dx3.animate",
+  "appName": "3DX ANIMATE",
+  "webDir": "www",
+  "backgroundColor": "#0b0b10",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "launchAutoHide": true,
+      "backgroundColor": "#0b0b10",
+      "showSpinner": false
+    }
+  }
+}
