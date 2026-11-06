@@ -1,6 +1,6 @@
 {
-  "appId": "com.dx3.animate",
-  "appName": "3DX ANIMATE",
+  "appId": "com.x3d.animate",
+  "appName": "3dx animate",
   "webDir": "www",
   "backgroundColor": "#0b0b10",
   "plugins": {
