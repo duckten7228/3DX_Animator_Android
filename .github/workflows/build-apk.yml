@@ -31,6 +31,8 @@ jobs:
           node scripts/obfuscate.js www/index.html www/index.html
       - name: Add Android platform
         run: npx cap add android
+      - name: Enable edge-to-edge fullscreen
+        run: cp MainActivity.java android/app/src/main/java/com/x3d/animate/MainActivity.java
       - name: Generate icons and splash
         run: npx capacitor-assets generate --android
       - name: Sync
