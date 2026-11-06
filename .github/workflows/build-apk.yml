@@ -25,6 +25,10 @@ jobs:
         run: npm install
       - name: Copy three.js libs
         run: npm run libs
+      - name: Obfuscate JS
+        run: |
+          npm install --no-save javascript-obfuscator@4
+          node scripts/obfuscate.js www/index.html www/index.html
       - name: Add Android platform
         run: npx cap add android
       - name: Generate icons and splash
